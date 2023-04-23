@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <title>TODO</title>
+</head>
+<body>
+
+    <py-config>
+                    plugins = [
+                      "https://pyscript.net/latest/plugins/python/py_tutor.py"
+                    ]
+                    [[fetch]]
+                    files = ["./utils.py", "./todo.py"]
+                </py-config>
+
+                <py-script src="./todo.py"></py-script>
+
+</body>
+</html>
